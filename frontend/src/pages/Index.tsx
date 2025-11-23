@@ -33,7 +33,7 @@ const Index = () => {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="flex gap-4 mt-4"
           >
-            <Button size="xl" className="bg-primary hover:bg-primary/90 hover:text-[#BF124D] text-primary-foreground">
+            <Button size="xl" className=" rounded-[70px] bg-primary hover:bg-primary/90 hover:text-[#BF124D] text-primary-foreground">
               Get Started
             </Button>
             
@@ -134,7 +134,7 @@ const Index = () => {
 
   <Button
     size="lg"
-    className="bg-primary text-black px-10 py-6 rounded-xl hover:bg-primary/90 transition"
+    className="bg-primary text-black px-10 py-6 rounded-3xl hover:bg-primary/90 transition"
   >
     START MONITORING →
   </Button>

@@ -30,7 +30,7 @@ const Navbar = () => {
               Login
             </Button>
             <Button
-              className="bg-primary hover:bg-primary/90 text-primary-foreground"
+              className=" rounded-[70px] bg-primary hover:bg-primary/90 text-primary-foreground"
             >
               Sign Up
             </Button>
