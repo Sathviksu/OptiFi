@@ -42,7 +42,7 @@ const CustomCursor = () => {
           mass: 0.8,
         }}
       >
-        <div className="w-[150px] h-[150px] rounded-full bg-[#36a1ad] blur-[80px]" />
+        <div className="w-[100px] h-[100px] rounded-full bg-[#1f818c] blur-2xl" />
       </motion.div>
 
       {/* Secondary glow */}
@@ -59,7 +59,7 @@ const CustomCursor = () => {
           mass: 1,
         }}
       >
-        <div className="w-[100px] h-[100px] rounded-full bg-[#49a6b0] blur-3xl" />
+        <div className="w-[60px] h-[60px] rounded-full bg-[#0ab4c7] blur-3xl" />
       </motion.div>
     </>
   );
