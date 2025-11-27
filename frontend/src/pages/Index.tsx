@@ -3,10 +3,13 @@ import { LampContainer } from "@/components/ui/lamp";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import CustomCursor from "@/components/CustomCursor";
+import { useNavigate } from "react-router-dom";
 import { FaDiscord, FaTelegramPlane, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt,FaLink} from "react-icons/fa";
 import { MdQrCodeScanner,MdSpeed } from "react-icons/md";
+
 const Index = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-background">
       <CustomCursor />
@@ -33,9 +36,13 @@ const Index = () => {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="flex gap-4 mt-4"
           >
-            <Button size="xl" className=" rounded-[70px] bg-primary hover:bg-primary/90 hover:text-[#BF124D] text-primary-foreground">
-              Get Started
-            </Button>
+            <Button
+  size="xl"
+  onClick={() => navigate("/login")}
+  className="rounded-[70px] bg-primary hover:bg-primary/90 hover:text-[#BF124D] text-primary-foreground"
+>
+  Get Started
+</Button>
             
           </motion.div>
         </motion.div>
